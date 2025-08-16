@@ -34,7 +34,7 @@ Install the required packages:
 ```bash
 pip install pandas numpy scikit-learn
 ```
-
+---
 ## 📊 Dataset
 
 ### Dataset: MovieLens 100K
@@ -43,7 +43,7 @@ pip install pandas numpy scikit-learn
   - ua.test → test set
   - u.item → movie metadata (titles, genres, etc.)
 - Make sure the dataset files are placed in a folder named ml-100k/ in the repo root.
-
+---
 ## 📈 Evaluation
 ### We evaluate all models using Precision@K:
 
@@ -59,7 +59,7 @@ pip install pandas numpy scikit-learn
 | User-Based CF               | 0.1013        |
 | Item-Based CF               | 0.0862        |
 | Matrix Factorization (SVD)  | 0.2137        |
-
+---
 ## 📌 Notes
 - Results may vary depending on parameters:
   - n_neighbors in user-based CF.
